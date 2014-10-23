@@ -1,0 +1,5 @@
+rubyproject
+emails = get_all_emails()
+emails.each do |email|
+	mailer.send_notification_to(email
+	end)
